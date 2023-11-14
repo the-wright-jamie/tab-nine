@@ -1,4 +1,5 @@
 import { API } from "../../types";
+import { quotes } from "./quotes"; // Add this line
 import { Quote } from "./types";
 
 // Get developer excuse
@@ -17,66 +18,14 @@ async function getDeveloperExcuse() {
   }
 }
 
+
 // Get quote of the day
 async function getQuoteOfTheDay(category?: string) {
-  const res = await fetch(
-    "https://quotes.rest/qod.json" + (category ? `?category=${category}` : ""),
-  );
-  const body = await res.json();
-
-  if (res.status === 429) {
-    return {
-      author: body.error.message.split(".")[1] + ".",
-      quote: "Too many requests this hour.",
-    };
-  }
-
-  if (
-    body &&
-    body.contents &&
-    body.contents.quotes &&
-    body.contents.quotes[0]
-  ) {
-    return {
-      author: body.contents.quotes[0].author,
-      quote: body.contents.quotes[0].quote,
-    };
-  }
+  let quote = quotes[Math.floor(Math.random() * quotes.length)]
 
   return {
-    author: null,
-    quote: null,
-  };
-}
-
-// Get bible verse of the day
-async function getBibleVerse() {
-  const res = await fetch("https://quotes.rest/bible/vod.json");
-
-  const body = await res.json();
-
-  if (res.status === 429) {
-    return {
-      author: body.error.message.split(".")[1] + ".",
-      quote: "Too many requests this hour.",
-    };
-  }
-
-  if (body && body.contents) {
-    return {
-      author:
-        body.contents.book +
-        " " +
-        body.contents.chapter +
-        ":" +
-        body.contents.number,
-      quote: body.contents.verse,
-    };
-  }
-
-  return {
-    author: null,
-    quote: null,
+    author: quote.author,
+    quote: quote.text,
   };
 }
 
@@ -86,12 +35,10 @@ export async function getQuote(
 ): Promise<Quote> {
   loader.push();
 
-  const data =
+  const data = 
     category === "developerexcuses"
       ? await getDeveloperExcuse()
-      : category === "bible"
-      ? await getBibleVerse()
-      : await getQuoteOfTheDay(category);
+      : await getQuoteOfTheDay(category); // Use this line
 
   loader.pop();
 
