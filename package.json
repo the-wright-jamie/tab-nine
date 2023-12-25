@@ -29,7 +29,7 @@
     "react-error-boundary": "^4.0.11",
     "react-github-btn": "^1.4.0",
     "react-intl": "^6.5.5",
-    "tlds": "^1.247.0",
+    "tlds": "^1.248.0",
     "webextension-polyfill": "^0.10.0"
   },
   "devDependencies": {
