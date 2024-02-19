@@ -55,7 +55,7 @@
     "typescript": "^5.3.3",
     "typescript-react-intl": "^0.4.1",
     "url-loader": "^4.1.1",
-    "webpack": "^5.89.0",
+    "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
     "webpack-ext-reloader": "^1.1.12",
