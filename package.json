@@ -20,7 +20,7 @@
     "date-fns": "^2.28.0",
     "date-fns-tz": "^2.0.0",
     "feather-icons": "^4.29.1",
-    "github-calendar": "^2.3.2",
+    "github-calendar": "^2.3.3",
     "in-browser-language": "^1.0.3",
     "nanoid": "^3.3.7",
     "normalize.css": "^8.0.1",
