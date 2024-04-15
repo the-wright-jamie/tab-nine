@@ -28,7 +28,7 @@
     "react-dom": "^18.2.0",
     "react-error-boundary": "^4.0.13",
     "react-github-btn": "^1.4.0",
-    "react-intl": "^6.6.4",
+    "react-intl": "^6.6.5",
     "tlds": "^1.249.0",
     "webextension-polyfill": "^0.10.0"
   },
