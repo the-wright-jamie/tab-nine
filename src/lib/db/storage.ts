@@ -144,7 +144,7 @@ const batch = (
   timeout = 0,
 ): DB.Listener => {
   const changes = new Map();
-  let timer: null | ReturnType<typeof setTimeout> = null;
+  let timer: NodeJS.Timeout | ReturnType<typeof setTimeout> = null;
 
   const run = () => {
     flush(changes);
