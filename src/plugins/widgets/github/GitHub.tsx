@@ -5,6 +5,8 @@ import { Props, defaultData } from "./types";
 // TODO: Inherit size and colour
 
 const GitHubCalendarWidget: FC<Props> = ({ data = defaultData, loader }) => {
+  if (!data.username) return null;
+
   return (
     <div className="GitHub">
       <GitHubCalendar
