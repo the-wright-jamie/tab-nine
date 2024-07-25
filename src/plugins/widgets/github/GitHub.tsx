@@ -10,6 +10,9 @@ const GitHubCalendarWidget: FC<Props> = ({ data = defaultData, loader }) => {
   return (
     <div className="GitHub">
       <GitHubCalendar
+        hideColorLegend
+        hideMonthLabels
+        hideTotalCount
         username={data.username}
       />
     </div>
