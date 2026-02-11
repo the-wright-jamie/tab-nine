@@ -1,16 +1,37 @@
-<div align="center"><img height="175" src="logo.svg"/>&emsp;&emsp;&emsp;<img height="175" src="https://raw.githubusercontent.com/the-wright-jamie/the-wright-jamie/main/memes/Help-Wanted-PNG-Pic.png"/></div>
+<div align="center"><img height="100" src="logo.svg"/>
 
-<h1 align="center">Welcome to Tab Nine</h1>
+<h2 align="center">🌙 Thank you, and goodnight! 🌌</h2>
+
+Tab 9 has been deprecated. All users are advised to migrate to [TablissNG](https://github.com/BookCatKid/TablissNG).
+
+<details align="left"><summary>Final Statement</summary>
+
+Tab 9 was a fork of Tabliss that I made in 2023, and was fun experiement for me into how I could contribute to open-source. I would have loved to, and had plans to, have built a community from Tab 9, but I simply lacked the time that is required to donate to such an endevour. Unfortunately, life has a way of getting inbetween you and your ambitions. To everyone that used Tab 9, I hope you found some of the small improvements useful. To Tabliss, and TablissNG, I wish you the very best for the future of this project.
+
+I hope that I can find more ways in the future to contribute and be involved in open-source. For now, this is my stop. I wish everyone reading this all the very best. And hey, maybe we'll meet again!
+
+Cheers,  
+Jamie.
+
+</details>
+
+<details align="left"><summary>Original ReadMe</summary>
+
+<hr>
+
+<div align="center"><img height="175" src="logo.svg"/>&emsp;&emsp;&emsp;<img height="175" src="https://raw.githubusercontent.com/the-wright-jamie/the-wright-jamie/main/memes/Help-Wanted-PNG-Pic.png"/></div>
 
 <p align="center">A modern and highly customisable New Tab page for Firefox and Chrome.</p>
 <p align="center">Contributions extremely welcome</p>
 
 <hr>
 
+<details align="left"><summary>Deprecation Warning</summary>
+  
 ### This project is on a glacier, and looking for active maintainers to rescue it. 
 I (Jamie) actually forgot all about this project as I no longer use Tab 9/Tabliss, additionally I achived all that I had actually set out to achive with the project in the first place. The plan was to continue extending it, but I haven't the time or passion or ideas to keep doing so. As a result, I will happily accept new maintainers for this repo who I can vet to continue working on the project. Of course, you're welcome to just fork and continue the work, but it would be good to keep the Chrome page etc consistent would it not? In that case, I'm open to creating/moving the project to an org so that I don't claim full ownership over it as well as update the extenstion stores to point to the new org instead. I'd be happy to work with maintainers to approve ideas etc. 
 
-Please let me know if you're interested by emailing me @ jamie-tab9@proton.me. ANY emails to ANY other address assossiated with my GitHub account (ones that you can find in `git log` or on my profile, for example) regarding this matter WILL be ignored completely - and I'll probably block your email address too. If you are looking to become a maintainer, please link your GitHub profile in your email and any other work you'd like to show off. This is purely for authenticity reasons, I will not accept accounts that were just made yesterday unless you can prove you're a real person. Given the currently unknown numbers of users, I do not want to endanger their workspace with potentially malicous changes to the codebase.
+Please let me know if you're interested by emailing me @ jamie-tab9@proton.me (now un-used after archival). ANY emails to ANY other address assossiated with my GitHub account (ones that you can find in `git log` or on my profile, for example) regarding this matter WILL be ignored completely - and I'll probably block your email address too. If you are looking to become a maintainer, please link your GitHub profile in your email and any other work you'd like to show off. This is purely for authenticity reasons, I will not accept accounts that were just made yesterday unless you can prove you're a real person. Given the currently unknown numbers of users, I do not want to endanger their workspace with potentially malicous changes to the codebase.
 
 Alternatively, if Tabliss has returned from it's hiatus, you're welcome to strip out the Tab Nine branding so that it can be merged back into upstream and if you decide to do so and they accept it, I'll archive this project and we can close this chapter.
 
@@ -19,6 +40,7 @@ If I don't get any interest by the end of the year (specifically 31st December 2
 Finally, thank you to everyone who gave this project interest when I first started. I'm sorry to have disappointed you, and I hope you believe me when I said I had big plans for this project when I first forked it. I hope this fresh new start will give you a better experience in the future. I'm hoping that I can move into a project manager and techinical overseer for this project rather than 'full time' dev work as that would be all I have the time, and mental energy for.
 
 Thank you for using Tab 9.
+</details>
 
 ## Index
 
@@ -127,3 +149,4 @@ Tabliss has been MIA for over a year. This fork contains all the upstream fixes 
 |  #25  | Accent color                                                |
 |       | Uses browser-default sans-serif font                        |
 |       | [A wiki](https://github.com/the-wright-jamie/tab-nine/wiki) |
+</details>
